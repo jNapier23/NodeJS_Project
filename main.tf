@@ -14,10 +14,10 @@ resource "aws_instance" "ci_server" {
 }
 
 resource "aws_instance" "deployment" {
-    ami             = ami-0aaa5410833273cfe"
+    ami             = "ami-0aaa5410833273cfe"
     instance_type   = "t2.small"
 }
 
 resource "aws_security_group" "ci_security" {
-    
+
 }
