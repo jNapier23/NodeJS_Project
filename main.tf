@@ -18,3 +18,6 @@ resource "aws_instance" "deployment" {
     instance_type   = "t2.small"
 }
 
+resource "aws_security_group" "ci_security" {
+    
+}
